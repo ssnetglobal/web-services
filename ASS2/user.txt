@@ -1,0 +1,4 @@
+{'id': '2', 'name': 'Ichemmadu updated', 'email': 'ichemmaduupdated@gmail.com', 'age': 38, 'phone': '+19852562255'}
+{'id': '1', 'name': 'Uchenna', 'email': 'asusoft19a@gmail.com', 'age': 10, 'phone': '88133559658'}
+{'id': '5', 'name': 'StephenObiya', 'email': 'stephen32@yahoo.com', 'age': 30, 'phone': '+1347032883'}
+{'id': '6', 'name': 'Markus Joseph ', 'email': 'markusjoseph@gmail.com', 'age': 35, 'phone': '+7952266445522'}
