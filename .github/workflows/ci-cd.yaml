@@ -45,11 +45,6 @@ jobs:
   nightly-health-check:
     runs-on: ubuntu-latest
 
-    # Temporarily remove `if:` condition to enable testing for all events
-    # Remove the `if:` condition below for testing purposes:
-    # Remove or comment out this line when you want to test:
-    # if: github.event_name == 'schedule'
-
     steps:
       # Step 1: Checkout code
       - name: Checkout code
