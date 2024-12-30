@@ -9,6 +9,7 @@ on:
       - main
   schedule:
     - cron: '0 0 * * *' # Runs nightly at midnight UTC
+  workflow_dispatch: # Allows manual triggering of the workflow
 
 jobs:
   build-and-test:
@@ -43,7 +44,11 @@ jobs:
 
   nightly-health-check:
     runs-on: ubuntu-latest
-    if: github.event_name == 'schedule'
+
+    # Temporarily remove `if:` condition to enable testing for all events
+    # Remove the `if:` condition below for testing purposes:
+    # Remove or comment out this line when you want to test:
+    # if: github.event_name == 'schedule'
 
     steps:
       # Step 1: Checkout code
